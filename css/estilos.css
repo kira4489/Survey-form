@@ -22,21 +22,25 @@ body:before {
   opacity: 0.8;
 }
 
-.col-sm-12 h1{
-    text-align: center;
-    color: #000000;
-    margin: 50px;
-}
-
-.container h1{
-    text-align: center;
+header #title{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 1px;
 }
 
 .form-group label{
-  color: #000000;
+  color: #ffffff;
 }
 
-.col-sm-12{
-    margin: 60px;
-    background-color: rgb(106, 106, 150);
+#survey-form{
+  background: #1b1b32;
+  padding: 50px 20px 0px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn{
+  margin-top: 25px;
 }
