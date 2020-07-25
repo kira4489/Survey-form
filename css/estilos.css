@@ -46,7 +46,7 @@ p{
 }
 
 #survey-form{
-  background: #1b1b32;
+  background: #1b1b33;
   padding: 60px;
   width: 60%;
   margin: auto;
@@ -54,10 +54,10 @@ p{
   flex-direction: column;
 }
 
-.submit-button {
+#submit{
   display: block;
   width: 100%;
-  padding: 0.75rem;
+  padding: 1rem;
   border-radius: 2px;
   cursor: pointer;
 }
