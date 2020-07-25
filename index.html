@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,31 +21,31 @@
       <div class="col-sm-12">
         <form id="survey-form">
           <div class="form-group">
-            <label for="name">nombre</label>
+            <label for="name" id="name">nombre</label>
             <input
               type="text"
               class="form-control"
-              id="exampleInputEmail1"
+              id="name"
               aria-describedby="emailHelp"
               placeholder="Escribe tu Nombre"
             />
           </div>
           <div class="form-group">
-            <label for="email">correo</label>
+            <label for="email" id="email-label">correo</label>
             <input
               type="email"
               class="form-control"
-              id="exampleInputEmail1"
+              id="email"
               aria-describedby="emailHelp"
               placeholder="Escribe tu correo"
             />
           </div>
           <div class="form-group">
-            <label for="age">edad (optional)</label>
+            <label for="age" id="number">edad (optional)</label>
             <input
               type="number"
               class="form-control"
-              id="exampleInputEmail1"
+              id="number"
               aria-describedby="emailHelp"
               placeholder="Escribe tu edad"
             />
@@ -67,7 +67,7 @@
             <label for="exampleFormControlSelect1"
               >cual es tu favorito de freecodecamp?</label
             >
-            <select class="form-control" id="exampleFormControlSelect1">
+            <select class="form-control" id="exampleFormControlSelect1" checked>
               <option>seleccione una opcion</option>
               <option>retos</option>
               <option>proyectos</option>
@@ -229,7 +229,7 @@
           </div>
           <div class="form-group">
             <label for="exampleFormControlSelect1"
-              >algunos comentarios o sugerencias</label
+             id="titulo" >algunos comentarios o sugerencias</label
             >
             <textarea
               class="form-control"

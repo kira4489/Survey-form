@@ -71,3 +71,8 @@ p {
 label {
   text-transform: capitalize;
 }
+
+.form-group #titulo{
+  display: flex;
+  justify-content: center;
+}
