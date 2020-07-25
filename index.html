@@ -18,7 +18,7 @@
       <p>Este es un formulario de practica</p>
     </header>
     <div class="container">
-      <div class="col-sm-12">
+      <div class="row">
         <form id="survey-form">
           <div class="form-group">
             <label for="name" id="name">nombre</label>
@@ -50,190 +50,122 @@
               placeholder="Escribe tu edad"
             />
           </div>
+         
           <div class="form-group">
-            <label for="exampleFormControlSelect1"
-              >cual es la opcion que describe mas su rol?</label
-            >
-            <select class="form-control" id="exampleFormControlSelect1">
+            <label for="form-control" class="control-label">cual es la opcion que describe mas su rol?</label>
+            <select class="form-control" id="example">
               <option>seleccione segun el rol</option>
               <option>estudiante</option>
               <option>tiempo completo</option>
               <option>tiempo para aprender</option>
               <option>prefiero no decir</option>
               <option>otra</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlSelect1"
-              >cual es tu favorito de freecodecamp?</label
-            >
-            <select class="form-control" id="exampleFormControlSelect1" checked>
+            </select>                 
+        </div>
+        <div class="form-group">
+            <label for="form-control" class="control-label">cual es tu favorito de freecodecamp?</label>
+            <select class="form-control" id="example">
               <option>seleccione una opcion</option>
               <option>retos</option>
               <option>proyectos</option>
               <option>comunidad</option>
               <option>codigo abierto</option>
-            </select>
-          </div>
+            </select>                    
+        </div>
           <div class="form-group">
             <label for="exampleFormControlSelect1"
               >recomendaria freecodecamp a un amigo?</label
             >
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="exampleRadios"
-                id="exampleRadios1"
-                value="option1"
-                checked
-              />
-              <label class="form-check-label" for="exampleRadios1">
-                definitivamente
-              </label>
+            <div class="radio">
+              <label><input type="radio" name="optradio" checked> definitivamente </label>
             </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="exampleRadios"
-                id="exampleRadios2"
-                value="option2"
-              />
-              <label class="form-check-label" for="exampleRadios2">
-                tal vez
-              </label>
+            <div class="radio">
+              <label><input type="radio" name="optradio"> tal vez </label>
             </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="exampleRadios"
-                id="exampleRadios2"
-                value="option2"
-              />
-              <label class="form-check-label" for="exampleRadios2">
-                no seguro
-              </label>
+            <div class="radio">
+              <label><input type="radio" name="optradio"> no seguro </label>
             </div>
+            
           </div>
           <div class="form-group">
-            <label for="exampleFormControlSelect1"
+            <label for="form"
               >que te gustaria ver para mejorar? (chequea una para
               aplicar)</label
             >
-            <div class="form-group form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >front-end Projects</label
-              >
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                front-end proyectos
+              </label>
             </div>
-            <div class="form-group form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >back-end Projects</label
-              >
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+               back-end proyectos
+              </label>
             </div>
-            <div class="form-group form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >data Visualization</label
-              >
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+               visualizaciones de datos
+              </label>
             </div>
-            <div class="form-group form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >challenges</label
-              >
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                 retos
+              </label>
             </div>
-            <div class="form-group form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >open Source Community</label
-              >
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+               comunidad abierta
+              </label>
             </div>
-            <div class="form-group form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >gitter help rooms</label
-              >
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+             habitaciones opengirtl
+              </label>
             </div>
-            <div class="form-group form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1">videos</label>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+              videos
+              </label>
             </div>
-            <div class="form-group form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >city Meetups</label
-              >
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+             reuniones city
+              </label>
             </div>
-            <div class="form-group form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1">wiki</label>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                wiki
+              </label>
             </div>
-            <div class="form-group form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1">forums</label>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                foro
+              </label>
             </div>
-            <div class="form-group form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >additional Courses</label
-              >
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                cursos adicionales
+              </label>
             </div>
-          </div>
+           </div>
           <div class="form-group">
             <label for="exampleFormControlSelect1"
              id="titulo" >algunos comentarios o sugerencias</label
             >
             <textarea
               class="form-control"
-              id="exampleFormControlTextarea1"
+              id="textarea"
               rows="4"
             ></textarea>
           </div>
