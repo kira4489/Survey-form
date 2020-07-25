@@ -32,6 +32,10 @@ body:before {
     text-align: center;
 }
 
+.form-group label{
+  color: #000000;
+}
+
 .col-sm-12{
     margin: 60px;
     background-color: rgb(106, 106, 150);
