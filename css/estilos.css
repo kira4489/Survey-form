@@ -5,27 +5,40 @@
 }
 
 body {
-  background-image: url(../imagenes/educacion.jpg);
-  height: 100vh;
-  background-size: cover;
-  opacity: 0.8;
-  background-position: center;
-  position: relative;
+font-size: 10px;
+line-height: 2.5;
 }
 
-body:before {
-  content: "";
-  position: absolute;
-  width: 100%;
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 100%;
-  background-color: #000000;
-  opacity: 0.8;
+  width: 100%;
+  z-index: -1;
+  background-image: linear-gradient(
+      120deg,
+      rgba(38, 38, 182, 0.8),
+      rgba(157, 157, 212, 0.7)
+    ),
+    url(../imagenes/educacion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 header #title{
   display: flex;
   justify-content: center;
   padding: 50px 0px 1px;
+  font-weight: 400;
+  line-height: 2.0;
+}
+
+p{
+  text-align: center;
+  color: #ffffff;
 }
 
 .form-group label{
@@ -34,13 +47,21 @@ header #title{
 
 #survey-form{
   background: #1b1b32;
-  padding: 50px 20px 0px;
+  padding: 60px;
   width: 60%;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
 
-.btn{
-  margin-top: 25px;
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+label{
+  text-transform: capitalize;
 }
