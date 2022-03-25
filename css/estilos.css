@@ -50,9 +50,8 @@ p{
 
 #survey-form {
   background: #1b1b33;
-  padding: 60px;
- /*  width: 60%; */
-  margin: auto;
+  padding: 20px;
+  margin: auto auto 20px;
   display: flex;
   flex-direction: column;
 }
